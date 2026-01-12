@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'Outfit-Regular';
-  src: url('/resources/Outfit-Regular.ttf') format('truetype');
+  src: url('resources/Outfit-Regular.ttf') format('truetype');
 }
 
 @font-face {
