@@ -6,17 +6,17 @@
 
 @font-face {
   font-family: 'Outfit-Regular';
-  src: url(/resources/Outfit-Regular.ttf);
+  src: url('/resources/Outfit-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Outfit-Medium';
-  src: url(/resources/Outfit-Medium.ttf);
+  src: url('resources/Outfit-Medium.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Outfit-SemiBold';
-  src: url(/resources/Outfit-SemiBold.ttf);
+  src: url('resources/Outfit-SemiBold.ttf') format('truetype');
 }
 
 body {
