@@ -211,6 +211,7 @@ a {
 @media (max-width: 412px) {
   .item1 {
     grid-column: 1;
+    margin-right: 32px;
   }
 
   .item3 {
