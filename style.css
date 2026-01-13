@@ -48,8 +48,8 @@ body {
 @media (max-width: 412px) {
   .container {
     margin: 20px 12px;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, 388px);
+    grid-template-columns: 388px;
+    grid-template-rows: 288px repeat(6, 1fr);
     max-width: 388px;
   }
 }
