@@ -247,7 +247,7 @@ a {
     grid-row: 6 / 7;
   }
 
-  .item img {
+  .item > img {
     object-fit: cover;
     width: 388px;
   }
