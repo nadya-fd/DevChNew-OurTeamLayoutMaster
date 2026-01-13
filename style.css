@@ -255,4 +255,8 @@ a {
   .gradient {
     width: 426px;
   }
+
+  .worker {
+    bottom: 44px;
+  }
 }
