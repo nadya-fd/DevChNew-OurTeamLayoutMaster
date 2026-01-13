@@ -27,9 +27,9 @@ body {
   position: relative;
   display: grid;
   margin: 92px auto;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 284px);
   grid-template-rows: repeat(2, 1fr);
-  width: 1136px;
+  max-width: 1136px;
   justify-content: center;
   border-radius: 24px;
   overflow: hidden;
@@ -39,9 +39,9 @@ body {
 @media (max-width: 1024px) {
   .container {
     margin: 72px auto;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 284px);
     grid-template-rows: repeat(3, 1fr);
-    width: 852px;
+    max-width: 852px;
   }
 }
 
@@ -49,8 +49,8 @@ body {
   .container {
     margin: 20px 12px;
     grid-template-columns: 1fr;
-    grid-template-rows: 288px repeat(6, 1fr);
-    width: 388px;
+    grid-template-rows: repeat(7, 388px);
+    max-width: 388px;
   }
 }
 
@@ -108,6 +108,7 @@ a {
 
 .item {
   position: relative;
+  object-fit: cover;
 }
 
 .name {
@@ -215,16 +216,19 @@ a {
   .item3 {
     grid-column: 1;
     grid-row: 2 / 3;
+    object-fit: cover;
   }
 
   .item4 {
     grid-column: 1;
     grid-row: 3 / 4;
+    object-fit: cover;
   }
 
   .item6 {
     grid-column: 1;
     grid-row: 4 / 5;
+    object-fit: cover;
   }
 
   .item5 {
@@ -240,6 +244,11 @@ a {
   .item8 {
     grid-column: 1;
     grid-row: 6 / 7;
+  }
+
+  .item img {
+    object-fit: cover;
+    width: 388px;
   }
 
   .gradient {
